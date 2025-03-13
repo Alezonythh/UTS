@@ -16,7 +16,7 @@ const ButtonEvent = ({
   return (
     <TouchableOpacity
       style={[
-        tw`px-1 py-1 rounded-lg w-20 mx-1 mb-1`,
+        tw`px-1 py-1 rounded-lg w-30 mx-1 mb-1`,
         { backgroundColor: 'transparent', borderWidth: border ? 2 : 0, borderColor: borderColor }
       ]}
       onPress={rute}
